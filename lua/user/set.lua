@@ -1,4 +1,5 @@
 vim.opt.nu = true
+vim.opt.rnu = true
 
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -25,5 +26,4 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
-
 vim.g.mapleader = " "

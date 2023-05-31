@@ -6,11 +6,9 @@ vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
 
 vim.keymap.set("n", "<C-j>", function() ui.nav_file(1) end)
 vim.keymap.set("n", "<C-k>", function() ui.nav_file(2) end)
-vim.keymap.set("n", "<C-l>", function() ui.nav_file(3) end)
-vim.keymap.set("n", "<C-u>", function() ui.nav_file(4) end)
-vim.keymap.set("n", "<C-i>", function() ui.nav_file(5) end)
-vim.keymap.set("n", "<C-o>", function() ui.nav_file(5) end)
+vim.keymap.set("n", "<C-i>", function() ui.nav_file(3) end)
+vim.keymap.set("n", "<C-o>", function() ui.nav_file(4) end)
 
-vim.keymap.set("n", "<C-Right>", function() ui.nav_next() end)
-vim.keymap.set("n", "<C-left>", function() ui.nav_prev() end)
+vim.keymap.set("n", "<C-h>", function() ui.nav_next() end)
+vim.keymap.set("n", "<C-l>", function() ui.nav_prev() end)
 
